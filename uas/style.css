@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc; /* abu-abu terang di luar kertas */
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.logo-kiri {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 90px;
+    height: auto;
+}
+
+.page {
+    background-color: #fff;
+    width: 1000px;
+    height: 700px;
+    padding: 80px 60px 40px 60px; /* Ubah padding atas jadi lebih besar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow-y: auto;
+    position: relative;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+form {
+    .flex-row {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.error-border {
+    border-color: red !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-top {
+    margin-bottom: 20px;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+}
+.page {
+    background-color: #fff;
+    width: 1000px;
+    height: 700px;
+    padding: 40px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow-y: auto;
+    position: relative; /* <== penting agar logo di dalam bisa diposisikan */
+}
+
+.logo-kertas {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+}
+.flex-row-subject {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.subject-group,
+.message-group {
+    flex: 1;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 2px solid red; /* border merah permanen */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: bold;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+    color: #333;
+}
